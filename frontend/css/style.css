@@ -1,0 +1,1037 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "PlayRegular";
+  src: url("../fonts/Play-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+body {
+  font-family: "PlayRegular", sans-serif;
+  font-size: 20px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: -webkit-fill-available;
+  min-height: -moz-available;
+  min-height: fill-available;
+  height: 100%;
+}
+
+.container {
+  max-width: 1010px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background-color: rgba(230, 219, 192, 0.8);
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+
+.menu-desktop ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu-desktop ul li {
+  list-style-type: none;
+  padding-left: 12px;
+}
+.menu-desktop ul a {
+  text-decoration: none;
+  color: #161616;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 11px 5px;
+}
+.menu-desktop ul a:hover {
+  color: #fff;
+  background-color: #139fe7;
+}
+.menu-desktop ul .active {
+  color: #fff;
+  background-color: #139fe7;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 90px 0 30px;
+  background-color: rgba(235, 224, 203, 0.8);
+}
+
+@media all and (max-width: 480px) {
+  .menu-desktop ul li {
+    padding-left: 6px;
+  }
+  .menu-desktop ul a {
+    font-size: 16px;
+  }
+}
+/*operations*/
+.main-block {
+  display: grid;
+  grid-template: 1fr/350px 1fr;
+  margin-top: 20px;
+}
+
+.debit-and-credit h2 {
+  margin-bottom: 10px;
+}
+
+.summary h2 {
+  margin-bottom: 10px;
+}
+.summary p {
+  margin-bottom: 10px;
+}
+.summary p b {
+  width: 100px;
+  display: inline-block;
+}
+.summary .filter {
+  display: flex;
+  flex-direction: row;
+}
+.summary .filter b {
+  width: 160px;
+}
+.summary .filter button {
+  margin: -2px 0px 10px 15px;
+  padding: 3px 10px;
+  width: 115px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #139fe7 50%, #139fe7);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.1s ease-in;
+  font-family: "PlayRegular";
+  font-size: 20px;
+  border: 1px solid #161616;
+  cursor: pointer;
+}
+.summary .filter button:hover {
+  background-position: 0 0;
+  color: #fff;
+  border: 1px solid #139fe7;
+}
+.summary .filter button:focus {
+  outline: none;
+  border: solid 1px #139fe7;
+}
+
+.summary-table .table-row, .summary-table .table-row-head {
+  margin-bottom: 5px;
+}
+.summary-table .hidden {
+  display: none;
+}
+.summary-table span {
+  box-sizing: border-box;
+  border: 2px solid #000;
+  padding: 0 5px;
+}
+.summary-table .table-date {
+  display: inline-block;
+  width: 95px;
+}
+.summary-table .table-count {
+  display: inline-block;
+  width: 95px;
+}
+.summary-table .table-description {
+  display: inline-block;
+  width: 230px;
+}
+.summary-table .table-category {
+  display: inline-block;
+  width: 167px;
+}
+.summary-table .consumption-cell {
+  border: 2px solid #e42c2c;
+}
+.summary-table .income-cell {
+  border: 2px solid #45bc63;
+}
+.summary-table .remove-consumption {
+  position: relative;
+  width: 15px;
+  height: 12px;
+  opacity: 0.3;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.summary-table .remove-consumption:hover {
+  opacity: 1;
+}
+.summary-table .remove-consumption:before, .summary-table .remove-consumption:after {
+  position: absolute;
+  top: -2px;
+  left: 4px;
+  content: " ";
+  height: 15px;
+  width: 2px;
+  background-color: black;
+}
+.summary-table .remove-consumption:before {
+  transform: rotate(45deg);
+}
+.summary-table .remove-consumption:after {
+  transform: rotate(-45deg);
+}
+.summary-table .remove-consumption:focus {
+  outline: none;
+}
+
+.operations-buttons-block {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 340px 0 74px;
+}
+
+.add-operation-btn {
+  padding: 3px 10px;
+  width: 90px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #139fe7 50%, #139fe7);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.1s ease-in;
+  font-family: "PlayRegular";
+  font-size: 20px;
+  border: 1px solid #161616;
+  cursor: pointer;
+}
+.add-operation-btn:hover {
+  background-position: 0 0;
+  color: #fff;
+  border: 1px solid #139fe7;
+}
+.add-operation-btn:focus {
+  outline: none;
+  border: solid 1px #139fe7;
+}
+
+.debit-and-credit {
+  display: flex;
+  flex-direction: column;
+}
+.debit-and-credit h2 {
+  margin-bottom: 10px;
+}
+.debit-and-credit span {
+  margin-bottom: 10px;
+}
+.debit-and-credit span b {
+  width: 200px;
+  display: inline-block;
+}
+
+@media all and (max-width: 990px) {
+  .main-block {
+    display: grid;
+    grid-template: 2fr/1fr;
+    margin-top: 20px;
+  }
+
+  .summary {
+    margin-left: 10px;
+  }
+
+  h2 {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .debit-and-credit {
+    margin-left: 10px;
+  }
+}
+@media all and (max-width: 640px) {
+  .container {
+    font-size: 12px;
+  }
+  .container .summary input {
+    width: 180px;
+  }
+  .container .summary .filter {
+    display: flex;
+    flex-direction: row;
+  }
+  .container .summary .filter b {
+    width: 80px;
+  }
+  .container .summary .filter button {
+    width: 75px;
+    font-size: 13px;
+    margin: -2px 0px 10px 7px;
+    padding: 0px 10px;
+  }
+  .container .summary .summary-table .table-date {
+    display: inline-block;
+    width: 65px;
+  }
+  .container .summary .summary-table .table-count {
+    display: inline-block;
+    width: 65px;
+  }
+  .container .summary .summary-table .table-description {
+    display: inline-block;
+    width: 170px;
+  }
+  .container .summary .summary-table .table-category {
+    display: inline-block;
+    width: 125px;
+  }
+  .container .summary .operations-buttons-block {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 10px;
+  }
+}
+@media all and (max-width: 480px) {
+  .container {
+    font-size: 10px;
+  }
+  .container .debit-and-credit {
+    margin-left: 0px;
+  }
+  .container .summary {
+    margin-left: 0px;
+  }
+  .container .summary .summary-table .table-date {
+    display: inline-block;
+    width: 50px;
+  }
+  .container .summary .summary-table .table-count {
+    display: inline-block;
+    width: 40px;
+  }
+  .container .summary .summary-table .table-description {
+    display: inline-block;
+    width: 85px;
+  }
+  .container .summary .summary-table .table-category {
+    display: inline-block;
+    width: 100px;
+  }
+  .container .summary .add-operation-btn {
+    width: 75px;
+    margin: 10px auto;
+    font-size: 13px;
+  }
+}
+/*diagram*/
+.diagram h2 {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+.diagram .container {
+  display: grid;
+  grid-template: 1fr/400px 1fr;
+  font-size: 13px;
+}
+.diagram .filter {
+  display: flex;
+  flex-direction: row;
+}
+.diagram .filter b {
+  width: 160px;
+}
+.diagram .filter button {
+  margin: -2px 0px 10px 5px;
+  padding: 3px 10px;
+  width: 75px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #139fe7 50%, #139fe7);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.1s ease-in;
+  font-family: "PlayRegular";
+  font-size: 13px;
+  border: 1px solid #161616;
+  cursor: pointer;
+}
+.diagram .filter button:hover {
+  background-position: 0 0;
+  color: #fff;
+  border: 1px solid #139fe7;
+}
+.diagram .filter button:focus {
+  outline: none;
+  border: solid 1px #139fe7;
+}
+.diagram .diagram-block {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+.diagram .table-row, .diagram .table-row-head {
+  margin-bottom: 5px;
+}
+.diagram .hidden {
+  display: none;
+}
+.diagram span {
+  box-sizing: border-box;
+  border: 2px solid #000;
+  padding: 0 5px;
+}
+.diagram .table-date {
+  display: inline-block;
+  width: 65px;
+}
+.diagram .table-count {
+  display: inline-block;
+  width: 65px;
+}
+.diagram .table-description {
+  display: inline-block;
+  width: 130px;
+}
+.diagram .table-category {
+  display: inline-block;
+  width: 130px;
+}
+
+@media all and (max-width: 980px) {
+  .diagram .container {
+    display: grid;
+    grid-template: 2fr/1fr;
+    margin-top: 20px;
+  }
+  .diagram .container .operations-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .diagram .container .diagram-block {
+    order: -1;
+    margin-bottom: 15px;
+  }
+}
+@media all and (max-width: 600px) {
+  .diagram .container {
+    font-size: 12px;
+  }
+  .diagram .container .diagram-block {
+    width: 400px;
+    height: 290px;
+    margin: 0 auto;
+  }
+  .diagram .container .table-date {
+    display: inline-block;
+    width: 65px;
+  }
+  .diagram .container .table-count {
+    display: inline-block;
+    width: 65px;
+  }
+  .diagram .container .table-description {
+    display: inline-block;
+    width: 100px;
+  }
+  .diagram .container .table-category {
+    display: inline-block;
+    width: 100px;
+  }
+}
+@media all and (max-width: 380px) {
+  .diagram .container {
+    font-size: 10px;
+  }
+  .diagram .container .diagram-block {
+    width: 300px;
+    height: 220px;
+    margin: 0 auto;
+  }
+  .diagram .container .table-date {
+    display: inline-block;
+    width: 50px;
+  }
+  .diagram .container .table-count {
+    display: inline-block;
+    width: 50px;
+  }
+  .diagram .container .table-description {
+    display: inline-block;
+    width: 80px;
+  }
+  .diagram .container .table-category {
+    display: inline-block;
+    width: 80px;
+  }
+}
+/*targets*/
+.create-target {
+  margin: 30px 15px;
+}
+.create-target p {
+  margin-bottom: 10px;
+}
+.create-target p b {
+  width: 200px;
+  display: inline-block;
+}
+
+.new-target {
+  margin: 20px 0 20px 0;
+}
+.new-target .create-targets {
+  padding: 3px 10px;
+  width: 220px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0 10px 100px;
+  display: block;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #139fe7 50%, #139fe7);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.1s ease-in;
+  font-family: "PlayRegular";
+  font-size: 20px;
+  border: 1px solid #161616;
+  cursor: pointer;
+}
+.new-target .create-targets:hover {
+  background-position: 0 0;
+  color: #fff;
+  border: 1px solid #139fe7;
+}
+.new-target .create-targets:focus {
+  outline: none;
+  border: solid 1px #139fe7;
+}
+
+.target-main {
+  margin: 10px 0 10px 0;
+}
+.target-main span {
+  box-sizing: border-box;
+  border: 2px solid #000;
+  padding: 0 5px;
+}
+.target-main .descriptions {
+  width: 320px;
+  display: inline-block;
+}
+.target-main .sum {
+  width: 100px;
+  display: inline-block;
+}
+.target-main .remove-target {
+  position: relative;
+  width: 15px;
+  height: 12px;
+  opacity: 0.3;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.target-main .remove-target:hover {
+  opacity: 1;
+}
+.target-main .remove-target:before, .target-main .remove-target:after {
+  position: absolute;
+  top: -2px;
+  left: 4px;
+  content: " ";
+  height: 15px;
+  width: 2px;
+  background-color: black;
+}
+.target-main .remove-target:before {
+  transform: rotate(45deg);
+}
+.target-main .remove-target:after {
+  transform: rotate(-45deg);
+}
+.target-main .remove-target:focus {
+  outline: none;
+}
+
+@media all and (max-width: 650px) {
+  .create-target {
+    margin: 15px 5px;
+  }
+  .create-target p {
+    margin-bottom: 10px;
+  }
+  .create-target p b {
+    width: 100px;
+    display: inline-block;
+  }
+  .create-target p input {
+    width: 150px;
+    display: inline-block;
+  }
+
+  .new-target .create-targets {
+    width: 170px;
+    font-size: 14px;
+    margin: 10px 0 10px 80px;
+  }
+}
+@media all and (max-width: 460px) {
+  .target-main .descriptions {
+    width: 200px;
+    display: inline-block;
+  }
+  .target-main .sum {
+    width: 100px;
+    display: inline-block;
+  }
+}
+/*debts*/
+.debts {
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
+  margin-top: 20px;
+}
+
+.create-debtors {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #161616;
+}
+.create-debtors span {
+  margin-left: 30px;
+}
+
+.create-my-debt {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #161616;
+}
+.create-my-debt span {
+  margin-left: 30px;
+}
+
+/*footer*/
+footer {
+  background-color: #000000;
+}
+
+.footer-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  padding: 10px 43px 15px 27px;
+}
+
+@media all and (max-width: 650px) {
+  footer {
+    flex: 0 0 auto;
+  }
+
+  .footer-information {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .footer-information .contacts {
+    margin-bottom: 15px;
+  }
+}
+.not-found .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (max-width: 700px) {
+  .not-found .container img {
+    width: 500px;
+  }
+}
+@media all and (max-width: 500px) {
+  .not-found .container img {
+    width: 400px;
+  }
+}
+@media all and (max-width: 400px) {
+  .not-found .container img {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

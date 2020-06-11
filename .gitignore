@@ -1,0 +1,5 @@
+*.map
+*.scss 
+*.git
+api/node_modules
+api/package-lock.json
